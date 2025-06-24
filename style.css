@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'arial';
+    src: url(./fonts/ARIAL.TTF);
+
+}
+
+table {
+    width: 48rem;
+    height: 13rem;
+    font-family: 'arial';
+    column-gap: 2rem;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+    border: 1px double rgba(128, 128, 128, 0.154);
+}
+
+.desc {
+    font-size: .8rem;
+    font-weight: 100;
+    margin-left: 7px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(128, 128, 128, 0.154);
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-weight: normal;
+}
