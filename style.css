@@ -30,3 +30,12 @@ th {
     color: white;
     font-weight: normal;
 }
+
+tr {
+    transition: 200ms;
+}
+
+tr:hover {
+    color: white;
+    background-color: darkslategrey;
+}
